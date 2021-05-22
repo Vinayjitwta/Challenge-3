@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Challenge-3</title>
+		</head>
+		<body>
+			<link rel="stylesheet" href="Challenge3.css">
+			<title>Program3</title>
+			<header>
+				<nav>
+					<a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience">HOME</a> |
+					<a href="https://barcelonahacks.com/camp-nou/#see">PLACES</a> |
+					<a href="https://www.gettyimages.in/photos/camp-nou">GALLERY</a> |
+					<a href="https://en.wikipedia.org/wiki/Camp_Nou">ABOUT US</a>
+				</nav>
+			</header>
+			<h2><u>Camp Nou</u></h2>
+			<p id="demo"></p>
+			<script>
+				var var1 = setInterval(inTimer, 500);
+				var fs = 5;
+				var ids = document.getElementById("demo");
+				function inTimer()
+				{
+					ids.innerHTML = 'Camp Nou';
+					ids.setAttribute('style', "font-size: " + fs + "px; color: #33ccff");
+					fs += 5;
+					if (fs >= 50)
+					{
+						clearInterval(var1);
+						var2 = setInterval(deTimer, 500);
+					}
+				}
+				function deTimer()
+				{
+					fs -= 5;
+					ids.innerHTML = 'Camp Nou';
+					ids.setAttribute('style', "font-size: " + fs + "px; color: #ff3333");
+					if (fs == 5)
+					{
+						clearInterval(var2);
+						var1 = setInterval(inTimer, 500);
+					}
+				}
+			</script>
+			<title>Camp Nou</title>
+			<img src="aaaa.jpeg" alt="Camp Nou" width="400" height="233">
+			<br>
+			<h3>By<a href="https://github.com/Vinayjitwta"> Vinay D Bharadwaj</a></h3>
+			<article>
+				<strong>
+					Camp Nou(Catalan) meaning new field, often referred to in English as the Nou Camp is a football stadium in Barcelona, Spain. It opened in 1957 and has been the home stadium of FC Barcelona since its completion. With a seating capacity of 99,354, it is the largest stadium in Spain and Europe, and the fourth largest football stadium in the world in capacity.
+				</strong>
+			</article>
+			<br>
+			<section>
+				Year:2018
+				<br>
+				Date:27th Aug
+			</section>
+			<h3><u> Reviews</u></h3>
+			<section>
+			<strong>
+				</strong>
+			<br>
+			<stong><b>Sebastian</b></strong>
+			<br>
+			<strong>Iconic football stadium!!</strong><br><img src="img1.jpeg" alt="rating 5";>
+			<hr>
+				It’s definitely worth doing the stadium tour, it’s a fun day out for anyone! You can take your time walking around, take plenty of photos, have a read about the history, theres lots of interactive activities, there’s definitely something for everyone. Would definitely recommend!
+			<br>
+			<br>
+			<br>
+			<stong><b>Amanda</b></strong>
+			<br>
+			<strong>Bad experience</strong><br><img src="img3.jpeg" alt="rating 4";>
+			<hr>
+			We Paid 156 euro for 2 Young children 5 years 2 teens at 9 years and for 4 adult. Paid the tickets only at your website. No one mentioning that the same Day you should have a new player presentation so we could Not use the full access of our ticket! Very bad information level of such Club and Company like FC Barcelona.
+			<br>
+			<br>
+			<br>
+			<stong><b>Thomas</b></strong>
+			<br>
+			<strong>Exciting!!!</strong><img src="img2.jpeg" alt="rating 3";>
+			<hr>
+				I visited the Camp Nou three time my last was in 2019 before the Covid-19, the building is huuuge, and everything was organized very well, even it was a Classico game (Barcelona vs Real Madrid) Everyone who is visiting Barcelona MUST visit the CampNou.
+			<br>
+			<br>
+			<br>
+			<hr>
+			</section>
+			<footer>
+				<nav>
+					<a href="https://www.fcbarcelona.com/en/tickets/camp-nou-experience">HOME</a> |
+					<a href="https://barcelonahacks.com/camp-nou/#see">PLACES</a> |
+					<a href="https://www.gettyimages.in/photos/camp-nou">GALLERY</a> |
+					<a href="https://en.wikipedia.org/wiki/Camp_Nou">ABOUT US</a>
+				</nav>
+				<br>
+			</footer>
+		</body>
+	</html>
